@@ -4,7 +4,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 import Image from 'next/image';
 
-export function SpotlightPreview() {
+export default function SpotlightPreview() {
   return (
     <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
