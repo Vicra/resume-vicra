@@ -12,27 +12,27 @@ export const products = [
         thumbnail: "/projects_blog.png",
     },
     {
-        title: "All Dental HN",
+        title: "Static Website using Hostinger App Builder",
         link: "https://alldentalhn.com",
         thumbnail: "/projects_alldental.png",
     },
     {
-        title: "Soltec",
+        title: "Prestashop eCommerce",
         link: "https://soltec.hn",
         thumbnail: "/projects_soltec.png",
     },
     {
-        title: "SPUD.ca",
+        title: "Integrate ETA for deliveries of Online Groceries site",
         link: "https://about.spud.com",
         thumbnail: "/projects_spud.png",
     },
     {
-        title: "All Dental HN",
+        title: "Static Website using Hostinger App Builder",
         link: "https://alldentalhn.com",
         thumbnail: "/projects_alldental.png",
     },
     {
-        title: "Soltec",
+        title: "Prestashop eCommerce",
         link: "https://soltec.hn",
         thumbnail: "/projects_soltec.png",
     },
@@ -42,7 +42,7 @@ export const products = [
         thumbnail: "/projects_blog.png",
     },
     {
-        title: "SPUD.ca",
+        title: "Integrate ETA for deliveries of Online Groceries site",
         link: "https://about.spud.com",
         thumbnail: "/projects_spud.png",
     },
