@@ -12,7 +12,7 @@ export default function ThreeDCardDemo() {
     <div className="bg-zinc-950 dark:bg-white">
         <SpotlightPreview/>
         <ProjectsParallax/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
     </div>
     </>
   );

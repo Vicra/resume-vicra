@@ -1,8 +1,7 @@
 import React from "react";
-import { cn } from "@/utils/cn";
 import { Spotlight } from "@/components/ui/spotlight";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function SpotlightPreview() {
   return (
