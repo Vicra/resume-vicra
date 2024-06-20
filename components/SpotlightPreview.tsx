@@ -1,7 +1,9 @@
 import React from "react";
-import { Spotlight } from "@/components/ui/spotlight";
-
 import Image from "next/image";
+import { Spotlight } from "@/components/ui/spotlight";
+import CIcon from '@coreui/icons-react';
+import { cibGithub, cibCodewars } from '@coreui/icons';
+
 
 export default function SpotlightPreview() {
   return (
@@ -25,6 +27,20 @@ export default function SpotlightPreview() {
             Software Engineer | Project Manager <br/>
             Currently working as a Fullstack Developer @ San Services HN
         </p>
+        <div className="max-w-10 mx-auto grid">
+            <a href="https://github.com/vicra" target="_blank">
+                <CIcon icon={cibGithub} size="sm" style={{
+                    fill: "white"
+                }} />
+            </a>
+
+            {/* <a href="https://www.codewars.com/users/Vicra/" target="_blank">
+                <CIcon icon={cibCodewars} size="sm" style={{
+                    background: "red",
+                    borderRadius: "60%"
+                }} />
+            </a> */}
+        </div>
       </div>
     </div>
   );

@@ -6,6 +6,9 @@ import ProjectsParallax from "@/components/ProjectsParallax";
 
 import React from "react";
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 export default function ThreeDCardDemo() {
   return (
     <>

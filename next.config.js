@@ -7,6 +7,12 @@ module.exports = {
           port: '',
           pathname: '/**',
         },
+        {
+            protocol: 'https',
+            hostname: 'www.codewars.com',
+            port: '',
+            pathname: '/**',
+          },
       ],
     },
   }
