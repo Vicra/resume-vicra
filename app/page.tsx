@@ -7,6 +7,7 @@ import ProjectsParallax from "@/components/ProjectsParallax";
 import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Timeline } from "@/components/Timeline";
 
 
 export default function ThreeDCardDemo() {
@@ -16,6 +17,7 @@ export default function ThreeDCardDemo() {
         <SpotlightPreview/>
         <ProjectsParallax/>
         {/* <Testimonials/> */}
+        <Timeline/>
     </div>
     </>
   );

@@ -14,7 +14,7 @@ export default function SpotlightPreview() {
       />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
         <Image
-            src="/avatar.png"
+            src="/avatar.jpeg"
             width={250}
             height={250}
             alt="Picture of the author"
