@@ -6,7 +6,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export function Timeline() {
   return (
-    <TracingBeam className="px-6 bg-black">
+    <TracingBeam className="bg-black">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative bg-black text-white">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="pb-10 bg-black">
@@ -46,29 +46,13 @@ const dummyContent = [
           I was excited to start my career as a Software Engineer. I remember the first ticket that I solved, it was related to an undefined key on a struct, I also rememver the first call I had with one of the database developers overseas and the struggle of trying to understand their accent. Thankfully we were both very patient and were able to resolve.
         </p>
         <p>
-          This job opportunity allowed me to grow as a software engineer and also left me with enough time to finish my Bachelors Degree in Computer Science. I met a lot of great people here and learned a lot from my leads.
+          This job opportunity allowed me to grow as a software engineer and also left me with enough time to finish my degree in Computer Science. I met a lot of great people here and learned a lot from my leads.
         </p>
       </>
     ),
     badge: "First Steps",
     image:
       "/july2016.jpg",
-  },
-  {
-    title: "Sept 2018 - Computer Science Engineer",
-    description: (
-      <>
-        <p>
-          After 5 of the toughest but also greatest years of my school I finally completed and graduted and got my bs in Computer Science. 
-        </p>
-        <p>
-          My fellow students and now most closest friends helped me cope with the pressure. Now we meet for hanging out, talk about the good times, having some pizza, videogaming and tech stuff.
-        </p>
-      </>
-    ),
-    badge: "Success!",
-    image:
-      "/sept2018.jpg",
   },
   {
     title: "Dec 2017 - Cristmas Party and Friends",
@@ -84,6 +68,22 @@ const dummyContent = [
       "/dec2017.jpg",
   },
   {
+    title: "Sept 2018 - Computer Science Engineer",
+    description: (
+      <>
+        <p>
+          After 5 of the toughest but also greatest years of my life I finally graduted and got my bs in Computer Science. 
+        </p>
+        <p>
+          My fellow students and now most closest friends helped me cope with the pressure. Now we meet for hanging out, talk about the good times, have some pizza and gaming.
+        </p>
+      </>
+    ),
+    badge: "Success!",
+    image:
+      "/sept2018.jpg",
+  },
+  {
     title: "May 2021 - Remote is the new way",
     description: (
       <>
@@ -95,5 +95,5 @@ const dummyContent = [
     badge: "",
     image:
       "/may2021.jpeg",
-  },
+  }
 ];
