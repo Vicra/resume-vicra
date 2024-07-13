@@ -15,6 +15,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
     "bootstrap": "^5.3.3",
+    "cal-sans": "^1.0.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.0",
     "i": "^0.3.7",

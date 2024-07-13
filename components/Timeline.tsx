@@ -1,31 +1,26 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export function Timeline() {
   return (
-    <TracingBeam className="bg-black">
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative bg-black text-white">
+    <TracingBeam className="px-6">
+      <div className="max-w-2xl mx-auto antialiased pt-4 relative mb-20">
         {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="pb-10 bg-black">
-            <h2 className="rounded-full text-sm w-fit px-4 py-1 mb-4">
-              {item.badge}
-            </h2>
-
-            <p className={"text-xl mb-4"}>
+          <div key={`content-${index}`} className="mb-10">
+            <p className="text-xl mb-4 text-white">
               {item.title}
             </p>
-
-            <div className="text-sm  prose prose-sm dark:prose-invert">
+ 
+            <div className="text-sm prose prose-sm text-white">
               {item?.image && (
                 <Image
                   src={item.image}
                   alt="blog thumbnail"
-                  height="1000"
+                  height="800"
                   width="1000"
-                  className="rounded-lg pb-10 object-cover"
+                  className="rounded-lg mb-10 object-cover"
                 />
               )}
               {item.description}
