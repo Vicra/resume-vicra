@@ -40,8 +40,8 @@ export default function SpotlightPreview() {
         <div className="flex flex-col items-center justify-center">
             <TypewriterEffectSmooth words={words} />
         </div>
-        <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-           I'm a fullstack engineer that loves building high quality software. My area of expertize throughout these 8 years has been ecommerce, APIs and content management to name a few. 
+        <p className="mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto">
+           I'm a fullstack engineer that loves building high quality software. My area of expertize throughout these 8 years has been ecommerce, APIs, authentication and content management to name a few. 
         </p>
 
         <div className="max-w-10 mx-auto grid">
