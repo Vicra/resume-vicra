@@ -4,8 +4,25 @@ import { Spotlight } from "@/components/ui/spotlight";
 import CIcon from '@coreui/icons-react';
 import { cibGithub, cibCodewars } from '@coreui/icons';
 
+import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+
 
 export default function SpotlightPreview() {
+    const words = [
+        {
+          text: "Hello, my name is",
+          className: "text-white",
+        },
+        {
+            text: "Victor.",
+            className: "text-blue-500 dark:text-blue-500",
+          },
+        {
+          text: "Nice to meet you.",
+          className: "text-white",
+        },
+    ];
+
   return (
     <div className="h-[50rem] w-full rounded-md flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
@@ -20,26 +37,19 @@ export default function SpotlightPreview() {
             alt="Picture of the author"
             className="mx-auto"
         />
-        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          Victor Ramirez
-        </h1>
+        <div className="flex flex-col items-center justify-center">
+            <TypewriterEffectSmooth words={words} />
+        </div>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            Software Engineer | Project Manager <br/>
-            Currently working as a Fullstack Developer @ San Services HN
+           I'm a fullstack engineer that loves building high quality software. My area of expertize throughout these 8 years has been ecommerce, APIs and content management to name a few. 
         </p>
+
         <div className="max-w-10 mx-auto grid">
             <a href="https://github.com/vicra" target="_blank">
                 <CIcon icon={cibGithub} size="sm" style={{
                     fill: "white"
                 }} />
             </a>
-
-            {/* <a href="https://www.codewars.com/users/Vicra/" target="_blank">
-                <CIcon icon={cibCodewars} size="sm" style={{
-                    background: "red",
-                    borderRadius: "60%"
-                }} />
-            </a> */}
         </div>
       </div>
     </div>

@@ -5,10 +5,10 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export function Timeline() {
   return (
-    <TracingBeam className="px-6">
+    <TracingBeam className="px-4">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative mb-20">
         {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
+          <div key={`content-${index}`} className="mb-10 bg-black">
             <p className="text-xl mb-4 text-white">
               {item.title}
             </p>
@@ -18,8 +18,8 @@ export function Timeline() {
                 <Image
                   src={item.image}
                   alt="blog thumbnail"
-                  height="800"
-                  width="1000"
+                  height="600"
+                  width="600"
                   className="rounded-lg mb-10 object-cover"
                 />
               )}
@@ -82,7 +82,7 @@ const dummyContent = [
     title: "May 2021 - Remote is the new way",
     description: (
       <>
-        <p>
+        <p className="bg-black">
           Started my first remote job for a client over in Vancouver, it was a great experience working with ecommerce and groceries. I met some of the most talented developers and managers here.
         </p>
       </>

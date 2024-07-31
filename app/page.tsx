@@ -12,13 +12,11 @@ import { Timeline } from "@/components/Timeline";
 
 export default function ThreeDCardDemo() {
   return (
-    <>
     <div className="bg-zinc-950 bg-black">
         <SpotlightPreview/>
         {/* <ProjectsParallax/>*/}
         {/* <Testimonials/> */}
-        <Timeline/>
+        {/* <Timeline/> */}
     </div>
-    </>
   );
 }
