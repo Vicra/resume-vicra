@@ -51,7 +51,7 @@ export default function Skills() {
             <div className="justify-center bg-black grid w-full md:grid-cols-2 lg:grid-cols-4 mx-auto">
             {
                 skills.map((skill)=> {
-                    return <SkillCard {...skill}/>
+                    return <SkillCard {...skill} key={skill}/>
                 })
             }
         </div>

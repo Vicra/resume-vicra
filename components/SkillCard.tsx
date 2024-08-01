@@ -57,7 +57,9 @@ export default function SkillCard(props: any) {
             >
                 {
                     props.icons && props.icons.map((icon: any) => {
-                        return <CIcon icon={recto[icon]} size="sm" style={{
+                        return <CIcon 
+                        key={icon}
+                        icon={recto[icon]} size="sm" style={{
                             fill: "white",
                         }} className="max-w-8"/>
                     })
