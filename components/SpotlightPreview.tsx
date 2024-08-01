@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Spotlight } from "@/components/ui/spotlight";
 import CIcon from '@coreui/icons-react';
+
 import { cibGithub, cibCodewars } from '@coreui/icons';
 
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
@@ -24,7 +25,7 @@ export default function SpotlightPreview() {
     ];
 
   return (
-    <div className="h-[50rem] w-full rounded-md flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="h-[45rem] w-full rounded-md flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
@@ -40,7 +41,7 @@ export default function SpotlightPreview() {
         <div className="flex flex-col items-center justify-center">
             <TypewriterEffectSmooth words={words} />
         </div>
-        <p className="mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto">
+        <p className="mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto text-sm">
            I am a fullstack engineer that loves building high quality software. My area of expertize throughout these 8 years has been ecommerce, APIs, authentication and content management to name a few. 
         </p>
 
