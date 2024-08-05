@@ -41,7 +41,7 @@ const recto: any = {
 export default function SkillCard(props: any) {
     return (
         <div className="p-4 text-center mt-1 my-14">
-            <h4 className="text-gray-300 mb-3">{props.title}</h4>
+            <h4 className="text-gray-300 mb-1">{props.title}</h4>
             <Image
                 src={props.image}
                 width={200}

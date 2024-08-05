@@ -1,6 +1,5 @@
 import SkillCard from "./SkillCard";
 
-
 export default function Skills() {
     const skills = [
         {
@@ -24,6 +23,16 @@ export default function Skills() {
             ]
         },
         {
+            title: "Database",
+            image: "/stack/db.png",
+            description: "I design and manage efficient databases, ensuring data integrity and optimal performance for all applications.",
+            icons: [
+                , "cibMongodb"
+                , "cibMysql"
+                , "cibOracle"
+            ]
+        },
+        {
             title: "DevOps",
             image: "/stack/do.png",
             description: "I streamline development and operations through automation, ensuring efficient and reliable deployment processes.",
@@ -33,28 +42,18 @@ export default function Skills() {
                 , "cibGithub"
             ]
         },
-        {
-            title: "Database",
-            image: "/stack/db.png",
-            description: "I design and manage efficient databases, ensuring data integrity and optimal performance for all applications.",
-            icons: [
-                , "cibMongodb"
-                , "cibMysql"
-                , "cibOracle"
-            ]
-        }
     ];
 
     return (
-        <>
-            <h2 className="text-center text-blue-500">Skills</h2>
+        <div className="">
+            <h2 className="text-center text-blue-500 pt-20">Technical Skills</h2>
             <div className="justify-center bg-black grid w-full md:grid-cols-2 lg:grid-cols-4 mx-auto">
-            {
-                skills.map((skill)=> {
-                    return <SkillCard {...skill} key={skill}/>
-                })
-            }
+                {
+                    skills.map((skill)=> {
+                        return <SkillCard {...skill} key={skill.title}/>
+                    })
+                }
+            </div>
         </div>
-        </>
     );
 }
