@@ -5,25 +5,25 @@ export default function Projects() {
         {
             title: "SPUD",
             image: "/projects/projects_spud.png",
-            description: "I worked as a backend developer for spud.ca, here I helped implement the WorkWave third-party API to provive ETA information for their groceries ecommerce. I also performed caching optimizations, data transformations and parsing for presenting invoice data",
+            description: "I worked as a backend developer for Spud.ca, where I helped implement the WorkWave third-party API to provide ETA information for their grocery ecommerce platform. I also optimized caching, transformed data, and parsed information to present invoice data more effectively.",
             url: "https://about.spud.com",
         },
         {
             title: "Sandals/Beaches",
             image: "/projects/projects_sandals.png",
-            description: "Built tokenization strategy for credit card processing system. Built content administrators for sandals.com and beaches.com sites. Built email marketing campaigns backend processes for targeted clients. Built several APIs and scheduled tasks.",
+            description: "Developed a tokenization strategy for a credit card processing system. Created content management tools for Sandals.com and Beaches.com. Designed backend processes for email marketing campaigns targeting specific client groups. Additionally, developed several APIs and scheduled automated tasks.",
             url: "https://sandals.com",
         },
         {
             title: "Soltec",
             image: "/projects/projects_soltec.png",
-            description: "Configured Prestashop 8 version on Hostinger using a VPS. Setup general settings like: language, currency, theme, contact info, SEO, search module, import data (products, categories, vendors, clients) and DNS configuration.",
+            description: "Configured Prestashop 8 on Hostinger using a VPS. Set up general settings, including language, currency, theme, contact information, SEO, search module, data import (products, categories, vendors, clients), and DNS configuration.",
             url: "https://soltec.hn",
         },
         {
             title: "All dental",
             image: "/projects/projects_alldental.png",
-            description: "This project is a static website, built with hostingers static site builder. This is the familys business, my wife is the head of this clinic and I am her go-to tech guy.",
+            description: "This project is a static website built using Hostinger's static site builder. It's for our family business, where my wife leads the clinic, and I handle all the technical aspects.",
             url: "https://alldentalhn.com",
         },
     ];

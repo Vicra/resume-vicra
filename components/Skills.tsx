@@ -5,7 +5,7 @@ export default function Skills() {
         {
             title: "Backend",
             image: "/stack/fe.png",
-            description: "I build scalable and robust backend systems that ensure smooth and secure data processing",
+            description: "I develop scalable and robust backend systems and APIs that facilitate smooth and secure data processing. My focus is on building architecture that supports high performance and reliability, ensuring that data handling is both efficient and safeguarded against potential vulnerabilities.",
             icons: [
                 "cibAuth0",
                 "cibPostman",
@@ -15,7 +15,7 @@ export default function Skills() {
         {
             title: "Frontend",
             image: "/stack/ux.png",
-            description: "I focus on delivering responsive and visually appealing interfaces for an outstanding user experience.",
+            description: "I specialize in creating responsive and visually appealing interfaces that provide an outstanding user experience. My attention to detail ensures that the design is not only aesthetically pleasing but also intuitive and user-friendly.",
             icons: [
                 "cibReact",
                 "cibNextJs",
@@ -25,7 +25,7 @@ export default function Skills() {
         {
             title: "Database",
             image: "/stack/db.png",
-            description: "I design and manage efficient databases, ensuring data integrity and optimal performance for all applications.",
+            description: "I design and manage efficient databases, prioritizing data integrity and optimizing performance for all applications. My approach ensures that the systems are reliable, scalable, and capable of handling complex data operations seamlessly.",
             icons: [
                 , "cibMongodb"
                 , "cibMysql"
@@ -35,7 +35,7 @@ export default function Skills() {
         {
             title: "DevOps",
             image: "/stack/do.png",
-            description: "I streamline development and operations through automation, ensuring efficient and reliable deployment processes.",
+            description: "I streamline development and operations through automation, ensuring efficient and reliable deployment processes. By implementing automated workflows and tools, I enhance the consistency and speed of software delivery, reducing downtime and minimizing errors.",
             icons: [
                 , "cibDocker"
                 , "cibAmazonAws"
