@@ -31,11 +31,11 @@ export default function Projects() {
     return (
         <div className="h-[45rem]">
             <h2 className="text-center text-blue-500 pt-20">Professional Projects</h2>
-            <div className="justify-center bg-black grid w-full md:grid-cols-2 lg:grid-cols-3 mx-auto">
+            <div className="justify-center bg-black grid w-full md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 mx-auto">
                 {
                     projects.map((project)=> {
                         return <TdCard {...project} key={project.title}/>
-                    })
+                    })  
                 }
             </div>
         </div>
