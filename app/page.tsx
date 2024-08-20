@@ -6,6 +6,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import { PresentationVideo } from "@/components/PresentationVideo";
 
 export default function ThreeDCardDemo() {
   return (
@@ -13,6 +14,7 @@ export default function ThreeDCardDemo() {
         <SpotlightPreview/>
         <Skills/>
         <Projects/>
+        <PresentationVideo/>
     </div>
   );
 }

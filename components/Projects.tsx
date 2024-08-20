@@ -29,7 +29,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="h-[45rem]">
+        <div>
             <h2 className="text-center text-blue-500 pt-20">Professional Projects</h2>
             <div className="justify-center bg-black grid w-full md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 mx-auto">
                 {
